@@ -1,3 +1,7 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .addRecipe {
   background-color: gainsboro;
   padding: 2rem;
@@ -25,7 +29,6 @@ textarea:is(:hover, :focus, :active) {
 }
 
 label {
-  font-family: Arial, Helvetica, sans-serif;
   margin-top: 1rem;
   color: darkslategray;
   letter-spacing: 0.25ch;
@@ -68,11 +71,27 @@ button:hover {
   justify-content: flex-start;
   align-items: center;
 }
-.allRecipes h2 {
-  flex-basis: 90%;
+.allRecipes h2,
+.changeh2 {
+  flex-basis: 80%;
+  font-size: 2rem;
 }
 .allRecipes button {
+  flex-basis: 10%;
   padding: 0.5rem;
   font-size: 1rem;
   justify-self: flex-end;
+}
+
+dialog:modal {
+  padding: 2rem;
+  width: 800px;
+}
+
+dialog input,
+dialog textarea {
+  display: block;
+  border: 1px solid darkslategrey;
+  margin-block: 1rem;
+  width: 100%;
 }
