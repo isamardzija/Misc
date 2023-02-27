@@ -1,0 +1,4 @@
+.message {
+    background-color: var(--color-primary-400);
+    padding: var(--padding-100);
+}

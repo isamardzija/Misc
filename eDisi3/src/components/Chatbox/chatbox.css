@@ -1,0 +1,9 @@
+.chatbox {
+  display: flex;
+  flex-direction: column;
+  row-gap: var(--gap-100);
+  border: 1px solid var(--color-primary-400);
+  padding: var(--padding-200);
+  overflow: scroll;
+  border-radius: 20px;
+}

@@ -1,0 +1,33 @@
+.sendMessageForm {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.sendMessageForm > input {
+    flex-basis: 100%;
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: var(--color-neutral-600);
+
+    padding: var(--padding-100);
+}
+
+.send {
+    border: none;
+    border-radius: 100%;
+    aspect-ratio: 1/1;
+    background-color: var(--color-primary-400);
+
+}
+
+.emojis {
+    border: none;
+    background-color: var(--color-neutral-600);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: var(--padding-100);
+}
+
